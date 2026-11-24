@@ -1,0 +1,37 @@
+{
+  "key": "group_impozant_page_content",
+  "title": "Obsah stránky",
+  "fields": [
+    {
+      "key": "field_impozant_page_intro",
+      "label": "Úvodní text",
+      "name": "impozant_page_intro",
+      "type": "textarea",
+      "instructions": "Volitelný úvod zobrazený před obsahem stránky.",
+      "required": 0,
+      "rows": 3,
+      "new_lines": "wpautop"
+    },
+    {
+      "key": "field_impozant_page_content",
+      "label": "Obsah stránky",
+      "name": "impozant_page_content",
+      "type": "wysiwyg",
+      "instructions": "Volitelné: vyplněním se použije tento obsah místo standardního editoru WordPressu.",
+      "required": 0,
+      "tabs": "all",
+      "toolbar": "full",
+      "media_upload": 1,
+      "delay": 0
+    }
+  ],
+  "location": [[{"param": "post_type", "operator": "==", "value": "page"}]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "Základní obsah běžných stránek. Produkty tuto skupinu nepoužívají."
+}

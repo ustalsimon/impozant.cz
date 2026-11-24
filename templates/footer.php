@@ -1,4 +1,2 @@
-<footer class="">
-
-</footer>
+<footer class="site-footer"><div class="site-container footer-inner"><span>Copyright © <?php echo esc_html(gmdate('Y')); ?> Impozant.cz</span><nav aria-label="Patička"><?php foreach (array('obchodni-podminky'=>'Obchodní podmínky','ochrana-osobnich-udaju'=>'Ochrana osobních údajů','odstoupeni-od-smlouvy'=>'Odstoupení od smlouvy','doprava-a-platba'=>'Doprava a platba','zasady-cookies'=>'Zásady cookies') as $slug => $label) : ?><a href="<?php echo esc_url(home_url('/'.$slug.'/')); ?>"><?php echo esc_html($label); ?></a><?php endforeach; ?></nav></div></footer>
 <?php wp_footer(); ?>

@@ -1,0 +1,180 @@
+{
+  "key": "group_impozant_home",
+  "title": "Úvodní stránka",
+  "fields": [
+    {
+      "key": "field_impozant_hero_label",
+      "label": "Popisek nad titulkem",
+      "name": "hero_label",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_hero_title",
+      "label": "Titulek úvodu",
+      "name": "hero_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_hero_text",
+      "label": "Popis úvodu",
+      "name": "hero_text",
+      "type": "textarea",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_hero_link",
+      "label": "Odkaz tlačítka úvodu",
+      "name": "hero_link",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_hero_image",
+      "label": "Obrázek úvodu (URL)",
+      "name": "hero_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_about_title",
+      "label": "Nadpis O nás",
+      "name": "about_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_about_text",
+      "label": "Text O nás",
+      "name": "about_text",
+      "type": "wysiwyg",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_about_image",
+      "label": "Obrázek O nás (URL)",
+      "name": "about_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_story_title",
+      "label": "Nadpis příběhu",
+      "name": "story_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_story_text",
+      "label": "Text příběhu",
+      "name": "story_text",
+      "type": "wysiwyg",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_story_image",
+      "label": "Obrázek příběhu (URL)",
+      "name": "story_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_brunch_title",
+      "label": "Nadpis — Brunch",
+      "name": "slide_brunch_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_brunch_text",
+      "label": "Popis — Brunch",
+      "name": "slide_brunch_text",
+      "type": "textarea",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_brunch_image",
+      "label": "Obrázek (URL) — Brunch",
+      "name": "slide_brunch_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_brunch_link",
+      "label": "Odkaz — Brunch",
+      "name": "slide_brunch_link",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_sun_title",
+      "label": "Nadpis — Sun",
+      "name": "slide_sun_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_sun_text",
+      "label": "Popis — Sun",
+      "name": "slide_sun_text",
+      "type": "textarea",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_sun_image",
+      "label": "Obrázek (URL) — Sun",
+      "name": "slide_sun_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_sun_link",
+      "label": "Odkaz — Sun",
+      "name": "slide_sun_link",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_arch_title",
+      "label": "Nadpis — Arch",
+      "name": "slide_arch_title",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_arch_text",
+      "label": "Popis — Arch",
+      "name": "slide_arch_text",
+      "type": "textarea",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_arch_image",
+      "label": "Obrázek (URL) — Arch",
+      "name": "slide_arch_image",
+      "type": "url",
+      "required": 0
+    },
+    {
+      "key": "field_impozant_slide_arch_link",
+      "label": "Odkaz — Arch",
+      "name": "slide_arch_link",
+      "type": "url",
+      "required": 0
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_type",
+        "operator": "==",
+        "value": "front_page"
+      }
+    ]
+  ],
+  "position": "normal",
+  "style": "default",
+  "active": true,
+  "modified": 1795513397
+}

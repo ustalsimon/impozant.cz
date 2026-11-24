@@ -54,3 +54,18 @@ function theme_module_script_tag(string $tag, string $handle, string $src): stri
     return '<script type="module" src="' . esc_url($src) . '" id="theme-main-js"></script>' . "\n";
 }
 add_filter('script_loader_tag', 'theme_module_script_tag', 10, 3);
+
+/** Project styles also work when a Vite build is unavailable. */
+function impozant_enqueue_styles(): void
+{
+    wp_enqueue_style('impozant-style', get_stylesheet_uri(), array(), (string) wp_get_theme()->get('Version'));
+}
+add_action('wp_enqueue_scripts', 'impozant_enqueue_styles', 110);
+
+function impozant_enqueue_icons(): void
+{
+    wp_enqueue_style('impozant-fontawesome', get_theme_file_uri('/assets/fonts/fontawesome/css/fontawesome.min.css'), array(), '5.15.3');
+    wp_enqueue_style('impozant-fontawesome-solid', get_theme_file_uri('/assets/fonts/fontawesome/css/solid.min.css'), array('impozant-fontawesome'), '5.15.3');
+    wp_enqueue_style('impozant-fontawesome-brands', get_theme_file_uri('/assets/fonts/fontawesome/css/brands.min.css'), array('impozant-fontawesome'), '5.15.3');
+}
+add_action('wp_enqueue_scripts', 'impozant_enqueue_icons');
