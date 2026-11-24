@@ -1,0 +1,8 @@
+/* Starter tokens. Customize these for each project; theme.json controls the editor. */
+@theme {
+  --font-heading: ui-sans-serif, system-ui, sans-serif;
+  --font-body: ui-sans-serif, system-ui, sans-serif;
+  --color-ink-primary: #171717;
+  --color-surface-canvas: #ffffff;
+  --container-page: 80rem;
+}
